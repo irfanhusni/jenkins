@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xrm.Sdk;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace Jenkins
     {
         static void Main(string[] args)
         {
-			// TO DO 
+            // TO DO 
+            IOrganizationService svc = null;
         }
     }
 }
